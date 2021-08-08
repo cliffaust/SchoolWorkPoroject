@@ -1,0 +1,260 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-image: url("./images/image4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.title {
+  font-family: "STIX Two Math", serif;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text {
+  font-size: 1.6rem;
+}
+
+.text-large {
+  font-size: 2.2rem;
+}
+
+.detail-box {
+  padding: 1rem;
+  width: 400px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.15);
+
+  backdrop-filter: blur(15px);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #bcd4e6;
+  width: 80%;
+  margin-top: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  color: inherit;
+}
+
+.logo {
+  font-family: "Zen Tokyo Zoo", cursive;
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* .detail-box:not(:last-child) {
+  margin-right: 2rem;
+} */
+
+.details-box {
+  padding: 1.5rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-0-5 {
+  margin-top: 0.5rem;
+}
+
+.mt-1-5 {
+  margin-top: 1.5rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-0-5 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-1-5 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-0-5 {
+  margin-left: 0.5rem;
+}
+
+.ml-1-5 {
+  margin-left: 1.5rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mr-0-5 {
+  margin-right: 0.5rem;
+}
+
+.mr-1-5 {
+  margin-right: 1.5rem;
+}
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+.form {
+  width: 450px;
+  height: 450px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.267);
+  padding: 20px 30px;
+  margin-top: 2rem;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.form-heading {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-mainbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background-color: #5e60ce;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page {
+  margin-right: 1rem;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:not(:last-child) {
+  margin-right: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+input:focus {
+  border-bottom: 2px solid #78788c;
+}
+.label:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+.forn-btn {
+  float: right;
+  padding: 8px 12px;
+  margin: 20px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #4ea8de;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.forn-btn:hover {
+  background: #4ea8de;
+  color: #fff;
+}
